@@ -37,7 +37,6 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 ## Entry point
 
 ``` localhost:5000/feed
-
 ```
 
 App.svelte - router paths
