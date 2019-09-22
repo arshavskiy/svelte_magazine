@@ -36,7 +36,10 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 ## Entry point
 
-### localhost:5000/feed
-### App.svelte - router paths
+``` localhost:5000/feed
 
-## Router with [Svero](https://github.com/kazzkiq/svero):
+```
+
+App.svelte - router paths
+
+##### Router with [Svero](https://github.com/kazzkiq/svero):
