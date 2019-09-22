@@ -39,7 +39,9 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 ```bash
 localhost:5000/feed
 ```
+### Router with [Svero](https://github.com/kazzkiq/svero):
 
+```bash
 App.svelte - router paths
+```
 
-##### Router with [Svero](https://github.com/kazzkiq/svero):
