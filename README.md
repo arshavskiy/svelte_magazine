@@ -10,7 +10,7 @@ npm run dev
 
 *Rollup(https://rollupjs.org):*
 
-Navigate to [localhost:5000/feed](http://localhost:5000/feed). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [http://localhost:5000/feed:cat=news](http://localhost:5000/feed). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 
 *Router with [Svero](https://github.com/kazzkiq/svero):*

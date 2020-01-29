@@ -9,7 +9,7 @@
     
    
     const cat = router.params._.split('cat=')[1];
-     console.log('Router: ', cat);
+    console.log('Router: ', cat);
 
     
     // $: _items = $items;
