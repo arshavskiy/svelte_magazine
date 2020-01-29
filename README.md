@@ -5,7 +5,7 @@ Install the dependencies...
 ```bash
 cd svelte_magazine
 npm install
-npm start
+npm run dev
 ```
 
 *Rollup(https://rollupjs.org):*
