@@ -8,7 +8,7 @@
     export let router = {};
     
    
-    const cat = router.params._.split('cat=')[1];
+    const cat = router.params && router.params._ ? router.params._.split('cat=')[1] : 'news';
     console.log('Router: ', cat);
 
     
