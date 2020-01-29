@@ -3,6 +3,10 @@
     import { onMount } from 'svelte';
     import { offset, items, feedOffset } from '../api/stores'
     import List from './components/List.svelte';
+    import { Router, Route } from 'svero';
+
+    export let router = {};
+    console.log('router.params: ', router.params);
     
     // $: _items = $items;
 
@@ -100,9 +104,6 @@
             img.src = imageArray[index];
         }
     }
-
-
-
 
 
     onMount(() => {

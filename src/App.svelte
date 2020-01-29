@@ -8,6 +8,7 @@
 	import About from './pages/About.svelte';
 
 	export let name;
+	
 
 </script>
 
@@ -26,7 +27,7 @@
 	
 	<Router>
 		<Route path="*" component={ Feed } />
-		<Route path="/feed*" component={ Feed } />
+		<Route path="/feed/*" component={ Feed } />
 		<Route path="/article" component={ Article } />
 		<Route path="/about" component={ About } />
 	</Router>
