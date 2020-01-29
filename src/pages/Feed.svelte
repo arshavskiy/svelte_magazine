@@ -6,7 +6,11 @@
     import { Router, Route } from 'svero';
 
     export let router = {};
-    console.log('router.params: ', router.params);
+    
+   
+    const cat = router.params._.split('cat=')[1];
+     console.log('Router: ', cat);
+
     
     // $: _items = $items;
 
@@ -18,7 +22,7 @@
     };
 
     const request = new Request('https://api.thestartmagazine.com/mediaApi/v1.0/content?' + hash +
-        '&language=en&limit=20&locale=en_US&category=news'
+        '&language=en&limit=20&locale=en_US&category=' +cat
         + '&offset='+ $offset, headers);
     
     const categoryReq = new Request('https://api.celltick.com/mediaApi/mediaApi/v1.0/category?'  + hash 
