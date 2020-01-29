@@ -7,7 +7,8 @@ cd svelte_magazine
 npm install
 npm start
 ```
-*[Rollup](https://rollupjs.org):
+
+*Rollup(https://rollupjs.org):*
 
 Navigate to [localhost:5000/feed](http://localhost:5000/feed). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
